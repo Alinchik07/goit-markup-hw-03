@@ -24,7 +24,11 @@ p, h1, h2, h3 {
     margin-bottom: 0;
 }
 
-
+.container {
+    min-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /* ======Header======= */
 
 .header {}
