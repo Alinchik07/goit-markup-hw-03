@@ -19,7 +19,7 @@ address {
     font-style: normal;
 }
 
-p, h1, h2, h3 {
+p, h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -33,9 +33,19 @@ p, h1, h2, h3 {
 
 /* ======Header======= */
 
-.header {}
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
-.header-navigation {}
+.header .container {
+    display: flex;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -45,6 +55,7 @@ p, h1, h2, h3 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-logo-accent {
@@ -52,7 +63,10 @@ p, h1, h2, h3 {
     color: #2E2F42;
 }
 
-.header-menu-list {}
+.header-menu-list {
+    gap: 40px;
+    display: flex;
+}
 
 .header-menu-item {}
 
@@ -72,10 +86,15 @@ p, h1, h2, h3 {
 }
 
 
-.header-address {}
+.header-address {
+    margin-left: auto;
+}
 
 
-.header-address-list {}
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
 
 
 .header-address-item {}
@@ -121,6 +140,11 @@ p, h1, h2, h3 {
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 496px;
 }
 
 
@@ -133,7 +157,14 @@ p, h1, h2, h3 {
     color: #FFFFFF;
     background: #4d5ae5;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
+    display: flex;
+    align-items: center;
 }
+
+
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -147,7 +178,8 @@ p, h1, h2, h3 {
     padding-bottom: 120px;
 }
 
-.features-title {}
+.features-title {
+}
 
 .past-title {
     font-weight: 700;
@@ -159,7 +191,10 @@ p, h1, h2, h3 {
     color: #2e2f42; 
 }
 
-.features-list {}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
 
 .features-item {}
 
@@ -183,6 +218,7 @@ p, h1, h2, h3 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 }
 
 /* ======Team section======= */
@@ -199,6 +235,9 @@ p, h1, h2, h3 {
 
 .team-list {
     background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .team-item {
@@ -208,10 +247,12 @@ p, h1, h2, h3 {
 
 .team-subtitle {
     text-align: center;
+    margin-top: 32px;
 }
 
 .team-item-text {
     text-align: center;
+    margin-bottom: 32px;
 }
 
 .team-page {
@@ -225,9 +266,15 @@ p, h1, h2, h3 {
     padding-bottom: 120px;
 }
 
-.portfolio-title {}
+.portfolio-title {
+    margin: 72px;
+}
 
-.portfolio-list{}
+.portfolio-list{
+    display: flex;
+        flex-wrap: wrap;
+        gap: 48px 24px;
+}
 
 
 .portfolio-item {}
