@@ -174,11 +174,11 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ======Features section======= */
 
 .features {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 
 .features-title {
+
 }
 
 .past-title {
@@ -188,7 +188,6 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: #2e2f42; 
 }
 
 .features-list {
@@ -196,9 +195,11 @@ p, h1, h2, h3, h4, h5, h6 {
     gap: 24px;
 }
 
-.features-item {}
+.features-item {
+}
 
 .features-subtitle {
+    padding-top: 120px;
 }
 
 .past-subtitle {
@@ -231,6 +232,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .team-title {
     margin-bottom: 72px;
+    color: #2e2f42;
 }
 
 .team-list {
@@ -238,6 +240,7 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    border: 264px 380px;
 }
 
 .team-item {
@@ -268,6 +271,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .portfolio-title {
     margin: 72px;
+    color: #2e2f42;
 }
 
 .portfolio-list{
