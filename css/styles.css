@@ -38,9 +38,9 @@ img {
 /* ======Header======= */
 
 .header {
-    max-width: 1158px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    width: 1158px;
+    padding: 24px 0;
+    margin: 0 auto;
     border-bottom: 1px solid #e7e9fc
 }
 
