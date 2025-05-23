@@ -39,8 +39,6 @@ img {
 
 .header {
     width: 1158px;
-    padding: 24px 0;
-    margin: 0 auto;
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -50,6 +48,8 @@ img {
 
 .header-navigation {
     display: flex;
+    padding: 24px 0;
+    margin: 0 auto;
     align-items: center;
 }
 
@@ -95,6 +95,8 @@ img {
 
 .header-address {
     margin-left: auto;
+    padding: 24px 0;
+    margin: 0 auto;
 }
 
 
@@ -273,7 +275,7 @@ border-radius: 0 0 4px 4px;
 }
 
 .team-info-container {
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 
@@ -295,7 +297,6 @@ text-align: center;
 }
 
 .team-page {
-    margin-bottom: 32px;
 }
 
 /* ======Portfolio section======= */
@@ -306,7 +307,7 @@ text-align: center;
 }
 
 .portfolio-title {
-    margin: 72px;
+    margin-bottom: 72px;
     color: #2e2f42;
 }
 
@@ -325,7 +326,6 @@ text-align: center;
 .portfolio-item {}
 
 .portfolio-page {
-    margin-bottom: 32px;
 }
 
 .portfolio-subtitle {
@@ -364,5 +364,6 @@ text-align: center;
 }
 
 .footer-text {
+    max-width: 264px;
     color: #f4f4fd;
 }
